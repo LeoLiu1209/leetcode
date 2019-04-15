@@ -36,9 +36,9 @@ class Solution {
 note:
    利用hashmap做紀錄，將只有一個的返回
    map.containsKey(int) : 尋找 key 
-   map.put(key, key's value) : 將key集value放入map
+   map.put(key, key's value) : 將key、value放入map
    map.keySet() : 沒有 Key 但是卻想要得到 Value ，這時可以考慮使用 HashMap 中的 keySet() 方法
-   map.get(keys) : 取得 key的value
+   map.get(keys) : 取得 key 的 value
 */
 class Solution {
     public int singleNumber(int[] nums) {
