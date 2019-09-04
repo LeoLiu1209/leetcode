@@ -42,7 +42,7 @@ class Solution {
             return t1;
         t1.val += t2.val; //避免重複生成結點，節省時間
         t1.left = mergeTrees(t1.left, t2.left);
-        t2.right = mergeTrees(t1.right, t2.right);
+        t.right = mergeTrees(t1.right, t2.right);
         return t1;
     }
 }
